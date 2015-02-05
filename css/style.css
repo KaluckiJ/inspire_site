@@ -1,0 +1,31 @@
+html {
+	font-family: museo-sans,sans-serif;
+	font-size: 20px;
+	background: url(/Users/joekalucki/Sites/inspire_site/images/background_opcion2.jpg);
+}
+
+#wrapper {
+	padding:0px;
+}
+
+#logo {
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav ul li {
+	display: inline;
+	padding:25px;
+}
+
+#billboard-container {
+	height:800px;
+}
+
+.billboard1 {
+	background: url("/Users/joekalucki/Sites/inspire_site/images/woods1.png") no-repeat center;
+	height: 100%;
+	width:100%;
+}
