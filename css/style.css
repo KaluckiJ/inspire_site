@@ -9,7 +9,12 @@ html {
 }
 
 #logo {
+	position: relative;
+	display: block;
+	padding-left: 15px;
+	padding-top:15px;
 }
+
 
 #header ul {
     list-style-type: none;
@@ -21,7 +26,7 @@ html {
 	display: inline;
 	padding:25px;
 	position:relative;
-	font-size: 25px;
+	font-size: 23px;
 	bottom:100px;
 	right:150px;
 }
@@ -42,7 +47,7 @@ html {
 }
 
 .billboard1 {
-	background: url("/Users/joekalucki/Sites/inspire_site/images/woods1.png") no-repeat center;
+	background: url("/Users/joekalucki/Sites/inspire_site/images/woods2.png") no-repeat center;
 	height: 800px;
 	width:100%;
 }
@@ -52,4 +57,23 @@ html {
 	text-align: center;
 	color:white;
 	padding-top:200px;
+}
+
+.billboard1 p {
+	font-size:25px;
+	text-align: center;
+	color:white;
+	position: relative;
+	font-weight: normal;
+	bottom: 75px;
+}
+
+.billboard-line {
+	width:50%;
+	height:5px;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	bottom:65px;
+	border-style: none;
 }
