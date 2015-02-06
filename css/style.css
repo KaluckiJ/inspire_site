@@ -11,21 +11,45 @@ html {
 #logo {
 }
 
-#nav ul {
-	list-style-type: none;
+#header ul {
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+}
+
+#header ul li {
+	display: inline;
+	padding:25px;
+	position:relative;
+	font-size: 25px;
+	bottom:100px;
+	right:150px;
 }
 
 #nav ul li {
-	display: inline;
-	padding:25px;
+	width:50px;
+	height:30px;
+	transition: background-color .2s ease;
+}
+
+#nav ul li:hover {
+	background-color:orange;
 }
 
 #billboard-container {
-	height:800px;
+	position: relative;
+	bottom:75px;
 }
 
 .billboard1 {
 	background: url("/Users/joekalucki/Sites/inspire_site/images/woods1.png") no-repeat center;
-	height: 100%;
+	height: 800px;
 	width:100%;
+}
+
+.billboard1 h1 {
+	font-size:100px;
+	text-align: center;
+	color:white;
+	padding-top:200px;
 }
