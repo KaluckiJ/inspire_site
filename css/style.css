@@ -31,7 +31,7 @@ body {
 	padding:25px;
 	position:relative;
 	font-size: 23px;
-	bottom:100px;
+	bottom:110px;
 	right:150px;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 #nav ul li:hover {
-	background-color:orange;
+	background-color:#E88801;
 }
 
 #billboard-container {
@@ -63,7 +63,7 @@ body {
 	padding-top:200px;
 }
 
-.billboard1 p {
+.billboard1 h3 {
 	font-size:25px;
 	text-align: center;
 	color:white;
@@ -74,10 +74,33 @@ body {
 
 .billboard-line {
 	width:50%;
-	height:5px;
+	height:1px;
 	background-color: white;
 	text-align: center;
 	position: relative;
 	bottom:65px;
 	border-style: none;
 }
+
+.main-button {
+	width:25%;
+	height:60px;
+	background-color: #E88801;
+	text-align: center;
+	margin:auto;
+	position: relative;
+	bottom: 75px;
+}
+
+.main-button h4 {
+	color:white;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 23px;
+}
+
+.main-button:hover {
+	background-color: #FFA01B;
+}
+
