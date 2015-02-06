@@ -4,6 +4,10 @@ html {
 	background: url(/Users/joekalucki/Sites/inspire_site/images/background_opcion2.jpg);
 }
 
+body {
+	margin: 0px;
+}
+
 #wrapper {
 	padding:0px;
 }
