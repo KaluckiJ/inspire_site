@@ -1,7 +1,7 @@
 html {
 	font-family: museo-sans,sans-serif;
 	font-size: 20px;
-	background: url(/Users/joekalucki/Sites/inspire_site/images/background_opcion2.jpg);
+	background: url("../images/background_opcion2.jpg");
 }
 
 body {
@@ -31,18 +31,24 @@ body {
 	padding:25px;
 	position:relative;
 	font-size: 23px;
-	bottom:110px;
-	right:150px;
+	bottom:75px;
+	right:250px;
 }
 
 #nav ul li {
 	width:50px;
-	height:30px;
+	height:15px;
 	transition: background-color .2s ease;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color:black;
 }
 
 #nav ul li:hover {
 	background-color:#E88801;
+	height:20px;
 }
 
 #billboard-container {
@@ -51,7 +57,7 @@ body {
 }
 
 .billboard1 {
-	background: url("/Users/joekalucki/Sites/inspire_site/images/woods2.png") no-repeat center;
+	background: url("../images/woods2.png") no-repeat center;
 	height: 800px;
 	width:100%;
 }
@@ -90,6 +96,11 @@ body {
 	margin:auto;
 	position: relative;
 	bottom: 75px;
+	transition: background-color .2s ease;
+}
+
+.main-button a {
+	text-decoration: none;
 }
 
 .main-button h4 {
@@ -104,3 +115,52 @@ body {
 	background-color: #FFA01B;
 }
 
+#content1 {
+	font-size:16px;
+	line-height: 20px;
+	position: relative;
+	bottom:20px;
+}
+
+#content1 .col1 {
+	width:18%;
+	float:left;
+	text-align: center;
+	padding:40px;
+}
+
+#content1 .col2 {
+	width:18%;
+	float:left;
+	text-align: center;
+	padding:40px;
+}
+
+#content1 .col3 {
+	width:18%;
+	float:left;
+	text-align: center;
+	padding:40px;
+}
+
+#content1 .col4 {
+	width:18%;
+	float:left;
+	text-align: center;
+	padding:40px;
+}
+
+
+
+
+
+#footer {
+	width:100%;
+	margin:0;
+	height:200px;
+	background-color: #818B8C;
+	border-top:5px #FFA01B solid;
+	color:#35D646A;
+	font-size:12px;
+	padding:20px;
+}
