@@ -1,7 +1,10 @@
+/* main styles */
+
 html {
 	font-family: museo-sans,sans-serif;
 	font-size: 20px;
 	background: url("../images/background_opcion2.jpg");
+	line-height: 25px;
 }
 
 body {
@@ -27,9 +30,7 @@ body {
 }
 
 #header ul li {
-	display: inline;
 	padding:25px;
-	position:relative;
 	font-size: 23px;
 	bottom:75px;
 	right:250px;
@@ -39,6 +40,8 @@ body {
 	width:50px;
 	height:15px;
 	transition: background-color .2s ease;
+	display: inline;
+	position:relative;
 }
 
 #nav ul li a {
@@ -51,6 +54,7 @@ body {
 	height:20px;
 }
 
+/* Home page */
 #billboard-container {
 	position: relative;
 	bottom:75px;
@@ -67,6 +71,7 @@ body {
 	text-align: center;
 	color:white;
 	padding-top:200px;
+	line-height: 100px
 }
 
 .billboard1 h3 {
@@ -150,17 +155,72 @@ body {
 	padding:40px;
 }
 
+/* About page */
+.about-video {
+	height: 800px;
+	width:100%;
+	z-index: 0;
+	position: relative;
+}
 
+.about-video-text p {
+	color:white;
+	position: absolute;
+	text-align: center;
+	top:0;
+	left:0;
+	z-index: 1;
+	padding-top: 250px;
+	padding-left: 330px;
+	width:50%;
+	font-size: 25px;
+	line-height: 35px;
+}
 
+.about-content-border {
+	width:50%;
+	background-color: #818B8C;
+	height:1px;
+	border-style: none;
+	margin-bottom: 20px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	bottom:65px;
+}
 
+#about-content1 {
+	padding-left: 30px;
+	position: relative;
+	bottom:50px;
+	width:85%;
 
+}
+
+#about-content1 img {
+	float:left;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+
+#about-content1 p {
+	position: relative;
+	top:30px;
+}
+
+/* FOOTER */
 #footer {
 	width:100%;
 	margin:0;
-	height:200px;
+	height:100%;
 	background-color: #818B8C;
 	border-top:5px #FFA01B solid;
 	color:#35D646A;
 	font-size:12px;
-	padding:20px;
+	line-height: 15px
+}
+
+.footer-col1 {
+	padding-left:30px;
 }
