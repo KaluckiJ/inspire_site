@@ -36,6 +36,11 @@ body {
 	right:200px;
 }
 
+#nav {
+	position: relative;
+	left:100px;
+}
+
 #nav ul li {
 	width:50px;
 	height:15px;
@@ -58,7 +63,7 @@ body {
 	color:white;
 }
 
-/* Home page */
+/* -----------HOME PAGE----------- */
 #billboard-container {
 	position: relative;
 	bottom:75px;
@@ -69,6 +74,7 @@ body {
 	background: url("../images/main-team-1.png") no-repeat center;
 	height: 800px;
 	width:100%;
+	background-size: cover;
 }
 
 .billboard1 h1 {
@@ -130,6 +136,7 @@ body {
 	line-height: 20px;
 	position: relative;
 	bottom:20px;
+	width:100%;
 }
 
 #content1 .col1 {
@@ -160,12 +167,32 @@ body {
 	padding:40px;
 }
 
-/* About page */
+.member-button {
+	width:200px;
+	height:60px;
+	background-color: #E88801;
+	text-align: center;
+	margin:auto;
+	border-style: none;
+	transition: background-color .2s ease;
+}
+
+.member-button:hover {
+background-color: #576d8a;
+}
+
+.member-button p {
+font-size: 16px;
+color:white;
+}
+
+/* -----------ABOUT PAGE------------ */
 .about-video {
 	height: 100%;
 	width:100%;
 	z-index: 0;
 	position: relative;
+	bottom:50px;
 }
 
 .about-video-text p {
@@ -196,8 +223,9 @@ body {
 
 #about-content1 {
 	padding-left: 30px;
+	padding-bottom: 50px;
 	position: relative;
-	bottom:50px;
+	top:0px;
 	width:85%;
 
 }
@@ -214,7 +242,7 @@ body {
 	top:30px;
 }
 
-/* FOOTER */
+/* -----------FOOTER----------- */
 #footer {
 	width:100%;
 	margin:0;
